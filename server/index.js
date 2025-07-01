@@ -18,7 +18,8 @@ app.use(
     origin: [
       "http://localhost:3000",
       "http://frontend:3000",
-      "https://c-playground.vercel.app"
+      // "https://c-playground.vercel.app"
+      "https://cp-final-rosy.vercel.app"
     ],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
